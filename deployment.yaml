@@ -1,0 +1,16 @@
+# Licensed to the Apache Software Foundation (ASF) under one or more contributor
+# license agreements; and to You under the Apache License, Version 2.0.
+
+project:
+    name: AppTosquarewsk
+    packages:
+        GitHubCommits:
+            actions:
+                square-wsk:
+            triggers:
+                GitHubWebhookTrigger:
+                    inputs:
+                        username: sonyali03  # replace it with your GitHub username
+                        repository: sonyali03/square-wsk    # replace it with your repo eg. apache/incubator-openwhisk-wskdeploy
+                        accessToken: <token>  # replace it with token which has access to the specified repo
+                        events: push          # push for commits
