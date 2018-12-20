@@ -1,5 +1,5 @@
 function main(const x) {
     const xx = x ** 2;
-    console.log(`the square of ${x} is ${xx}`);
+    console.log(`the square wsk of ${x} is ${xx}`);
     return xx;
 }
