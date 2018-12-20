@@ -12,5 +12,5 @@ project:
                     inputs:
                         username: sonyali03  # replace it with your GitHub username
                         repository: sonyali03/square-wsk    # replace it with your repo eg. apache/incubator-openwhisk-wskdeploy
-                        accessToken: 9fe40b45ea28abe9b9d95baa1647422397eab926  # replace it with token which has access to the specified repo
+                        accessToken: 450241a68f5be0dfdd187dd415477069a7e1e361  # replace it with token which has access to the specified repo
                         events: push          # push for commits
