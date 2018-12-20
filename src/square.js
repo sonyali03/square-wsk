@@ -1,5 +1,12 @@
-function main(const x) {
-    const xx = x ** 2;
-    console.log(`the square wsk of ${x} is ${xx}`);
-    return xx;
+function main(params) {
+
+    console.log("Display GitHub Commit Details for GitHub repo test04: ", params.repository.url);
+    for (var commit of params.commits) {
+        console.log(params.head_commit.author.name + " added code changes with commit message: " + commit.message);
+    }
+
+    console.log("Commit logs are: ")
+    console.log(params.commits)
+
+    return { message: params };
 }
