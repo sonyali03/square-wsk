@@ -5,7 +5,7 @@ packages:
     GitHubCommits:
         actions:
             square-wsk:
-                location: src/square-wsk.js
+                location: src/square.js
                 runtime: nodejs:6
         triggers:
             GitHubWebhookTrigger:
